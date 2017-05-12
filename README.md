@@ -9,6 +9,13 @@ Provides an Ember.js application blueprint for use with `ember new --blueprint` 
 - [Ember CLI](https://ember-cli.com/)
 
 ## Usage
+
+#### ChaiTools
+
+This blueprint can be used with [ChaiTools](https://github.com/chaione/chaitools).
+
+#### Standalone
+
 To create a new Ember project using this blueprint, simply run the following command (requires Ember CLI 2.14+):
 
 ```shell
