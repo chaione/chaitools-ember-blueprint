@@ -101,3 +101,7 @@ This blueprint contains a Code Climate config file `.codeclimate.yml`. JavaScrip
 #### Dependency Lint
 
 Auto-generated dependency lint tests are disabled and you will need to run `ember dependency-lint` manually. This can be turned on in `config/dependency-lint.js`.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
