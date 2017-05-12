@@ -9,19 +9,19 @@ module.exports = function (deployTarget) {
   };
 
   if (deployTarget === 'dev') {
-    // configure other plugins for development deploy target here
+    // configure other plugins for DEV deploy target here
   }
 
   if (deployTarget === 'qa') {
-    // configure other plugins for development deploy target here
+    // configure other plugins for QA deploy target here
   }
 
   if (deployTarget === 'staging') {
-    // configure other plugins for staging deploy target here
+    // configure other plugins for STAGING deploy target here
   }
 
   if (deployTarget === 'production') {
-    // configure other plugins for production deploy target here
+    // configure other plugins for PRODUCTION deploy target here
   }
 
   // Note: if you need to build some configuration asynchronously, you can return
