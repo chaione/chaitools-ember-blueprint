@@ -11,15 +11,31 @@ Provides an Ember.js application blueprint for use with `ember new --blueprint` 
 ## Usage
 To create a new Ember project using this blueprint, simply run the following command (requires Ember CLI 2.14+):
 
-```
-ember new my-awesome-new-app -b chaitools-ember-blueprint
+```shell
+$ ember new my-awesome-new-app -b chaitools-ember-blueprint
 ```
 
 To use the latest blueprint that hasn't been published to NPM, run this (works with older versions of Ember CLI):
 
+```shell
+$ ember new my-awesome-new-app -b https://github.com/chaione/chaitools-ember-blueprint.git
 ```
-ember new my-awesome-new-app -b https://github.com/chaione/chaitools-ember-blueprint.git
+
+Your newly created Ember app is ready to go! Launch it by running:
+
+```shell
+$ cd my-awesome-new-app
+$ ember s
 ```
+
+Open your browser, navigate to `http://localhost:4200/`, and see your new app in action.
+
+#### Other Useful Commands
+
+- `ember t` - Run all tests.
+- `ember t -s` - Run all tests with live reload.
+- `ember release --tag '0.0.1' --annotation 'My first release!'` - Create a new version.
+- `ember deploy qa` - Deploy a build to QA environment.
 
 ## Installed Addons
 
