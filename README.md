@@ -72,15 +72,15 @@ In addition to addons installed by the Ember CLI blueprint, this one also instal
 - [`ember-route-action-helper`](https://github.com/DockYard/ember-route-action-helper) - Bubbles closure actions to routes, to eliminate the need for using controllers.
 - [`ember-cli-moment-shim`](https://github.com/jasonmit/ember-cli-moment-shim) - ES6 accessible module for Moment.js.
 - [`ember-cli-moment`](https://github.com/stefanpenner/ember-moment) - Template helpers and computed property macros for Moment.js.
-- [`ember-cli-dotenv`](https://github.com/fivetanley/ember-cli-dotenv) - Imports environment variables from a `.env` file.
+- [`ember-cli-dotenv`](https://github.com/fivetanley/ember-cli-dotenv) - Imports environment variables from a [`.env`](files/.env) file.
 
 ## Other Changes
 
 #### Ember CLI
 
-- Pods file structure is enabled by default. See `.ember-cli`.
-- Browser target is set to IE 10+ and latest versions of Chrome, Safari and Firefox. See `config/targets.js`.
-- Default deploy targets include DEV, QA, STAGING and PRODUCTION. Please note that deploy targets are not environments in Ember CLI's definition. See `config/environment.js` and `config/deploy.js`.
+- Pods file structure is enabled by default. See [`.ember-cli`](files/.ember-cli).
+- Browser target is set to IE 10+ and latest versions of Chrome, Safari and Firefox. See [`config/targets.js`](files/config/targets.js).
+- Default deploy targets include DEV, QA, STAGING and PRODUCTION. Please note that deploy targets are not environments in Ember CLI's definition. See [`config/environment.js`](files/config/environment.js) and [`config/deploy.js`](files/config/deploy.js).
 
 #### Yarn
 
@@ -88,19 +88,19 @@ This blueprint contains a Yarn lock file which tells Ember CLI to use Yarn inste
 
 #### Circle CI
 
-This blueprint replaces default `.travis.yml` with a Circle CI config file `circle.yml`. This config automatically deploys master builds to DEV environment.
+This blueprint replaces default `.travis.yml` with a Circle CI config file [`circle.yml`](files/circle.yml). This config automatically deploys master builds to DEV environment.
 
 #### ESLint
 
-This blueprint provides a fairly strict ESLint rule set. See `.eslintrc.js` and `tests/.eslintrc.js`.
+This blueprint provides a fairly strict ESLint rule set. See [`.eslintrc.js`](files/.eslintrc.js) and [`tests/.eslintrc.js`](files/tests/.eslintrc.js).
 
 #### Code Climate
 
-This blueprint contains a Code Climate config file `.codeclimate.yml`. JavaScript duplication mass threshold is set to 64.
+This blueprint contains a Code Climate config file [`.codeclimate.yml`](files/.codeclimate.yml). JavaScript duplication mass threshold is set to 64.
 
 #### Dependency Lint
 
-Auto-generated dependency lint tests are disabled and you will need to run `ember dependency-lint` manually. This can be turned on in `config/dependency-lint.js`.
+Auto-generated dependency lint tests are disabled and you will need to run `ember dependency-lint` manually. This can be turned on in [`config/dependency-lint.js`](files/config/dependency-lint.js).
 
 ## License
 

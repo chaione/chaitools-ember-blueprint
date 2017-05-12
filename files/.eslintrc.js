@@ -9,7 +9,6 @@ module.exports = {
     browser: true
   },
   rules: {
-
     // Possible Errors
     'no-cond-assign': 'error',
     'no-console': 'error',
